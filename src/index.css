@@ -1,13 +1,71 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #151515;
+}
+.bg-launcher{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.launcher{
+  background-image: url("assets/images/bg-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 500px;
+}
+.progress-bar__custom{
+  background-color: #e8e7e7;
+  height: 50px;
+}
+.progress-bar{
+  background-color: #6d10de;
+}
+.recharts-wrapper{
+  background-color: #e8e7e7;
+  height: 60px !important;
+  width: 100% !important;
+  border-radius: 5px;
+}
+.recharts-surface{
+  width: 100% !important;
+}
+.dropdown-toggle{
+  border-radius: 4px !important;
+  background-color: #f3f3f3;
+}
+.dropdown-toggle:hover{
+  background-color: #dfdcdc;
+}
+.dropdown-toggle::after{
+  visibility: hidden;
+  display: none;
+}
+.dropdown-toggle img{
+  width: 30px;
+  height: 30px;
+}
+.btn-download{
+  background-color: #6d10de;
+  border: 1px solid #6d10de;
+}
+.btn-download:hover{
+  background-color: #760ef3;
+  border: 1px solid #6d10de;
+}
+.btn-download:disabled{
+  background-color: #760ef3;
+  border: 1px solid #6d10de;
+}
+.btn-download:focus{
+  background-color: #760ef3;
+  border: 1px solid #6d10de;
 }
